@@ -1,0 +1,25 @@
+{
+  "name": "watch-sass",
+  "version": "0.0.1",
+  "description": "A repo to watch sass changes and convert it to css.",
+  "scripts": {
+    "watch:sass": "chokidar \"sass/**/*.scss\" -c \"node watch-sass.js {path}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowankit/watch-sass.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knowankit/watch-sass/issues"
+  },
+  "homepage": "https://github.com/knowankit/watch-sass#readme",
+  "devDependencies": {
+    "chokidar": "^3.0.2",
+    "node-sass-tilde-importer": "^1.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
