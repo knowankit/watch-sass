@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/knowankit/watch-sass#readme",
   "devDependencies": {
-    "chokidar": "^3.3.1",
+    "chokidar": "^3.4.0",
     "node-sass-tilde-importer": "^1.0.2"
   },
   "dependencies": {
